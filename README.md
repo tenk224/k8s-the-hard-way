@@ -2,7 +2,7 @@
 ## Disclaimer
 - For learning kubernetes purpose, I use this [repo](https://github.com/kelseyhightower/kubernetes-the-hard-way) as a reference.
 - This will be deployed to Google Cloud Platform (GCP).
-- Some links in this repository might get outdated, please refer to the given link for the up-to-date one.
+- Some links in this repository might get outdated, please refer to the given link for the up-to-date ones.
 ## Prerequisites
 ### Homebrew
 Install Homebrew with [this](https://brew.sh/)
@@ -20,7 +20,7 @@ wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk
 tar -xzvf google-cloud-sdk-285.0.1-darwin-x86_64.tar.gz
 ./install.sh
 ```
-Or brew
+**Or** brew
 ```
 brew install google-cloud-sdk
 ```
@@ -43,3 +43,14 @@ Install with Homebrew
 ```
 brew install cfssl
 ```
+### Kubectl
+Install
+```
+brew install kubectl
+```
+Verify
+```
+kubectl version --client
+```
+### Kubernetes concept
+Read the [Concepts](https://kubernetes.io/docs/concepts)
