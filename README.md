@@ -1,7 +1,6 @@
 # Kubernetes the hard way
 ## Disclaimer
-- For learning kubernetes purpose, use the repository as you please.
-- I will provide steps that I have done in MacOS and partially in Windows Subsystem for Linux (WSL).
+- For learning kubernetes purpose, I use this [repo](https://github.com/kelseyhightower/kubernetes-the-hard-way) as a reference.
 - This will be deployed to Google Cloud Platform (GCP).
 - Some links in this repository might get outdated, please refer to the given link for the up-to-date one.
 ## Prerequisites
@@ -28,4 +27,19 @@ brew install google-cloud-sdk
 Check installation
 ```
 gcloud version
+```
+Config \
+Initiate config
+```
+gcloud init
+```
+Check by listing instances
+```
+gcloud compute instances list
+```
+### CFSSL
+Have a read at [public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure) \
+Install with Homebrew
+```
+brew install cfssl
 ```
