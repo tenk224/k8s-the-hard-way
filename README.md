@@ -1,2 +1,3 @@
-# k8s-the-hard-way
-for learning k8s purpose
+# Kubernetes the hard way
+## Disclaimer
+- For learning kubernetes purpose, use the repository as you please.
