@@ -28,7 +28,6 @@ Check installation
 ```
 gcloud version
 ```
-Config \
 Initiate config
 ```
 gcloud init
@@ -39,6 +38,7 @@ gcloud compute instances list
 ```
 ### CFSSL
 Have a read at [public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure) \
+\
 Install with Homebrew
 ```
 brew install cfssl
