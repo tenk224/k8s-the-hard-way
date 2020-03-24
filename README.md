@@ -1,9 +1,9 @@
 # Kubernetes the hard way
 ## Disclaimer
-For learning kubernetes purpose, use the repository as you please.\
-I will provide steps that I have done in MacOS and partially in Windows Subsystem for Linux (WSL).\
-This will be deployed to Google Cloud Platform (GCP).\
-Some links in this repository might get outdated, please refer to the given link for the up-to-date one.\
+- For learning kubernetes purpose, use the repository as you please.
+- I will provide steps that I have done in MacOS and partially in Windows Subsystem for Linux (WSL).
+- This will be deployed to Google Cloud Platform (GCP).
+- Some links in this repository might get outdated, please refer to the given link for the up-to-date one.
 ## Prerequisites
 ### Homebrew
 Install Homebrew with [this](https://brew.sh/)
