@@ -16,6 +16,11 @@ brew install wget
 ```
 ### Google Cloud Platform SDK
 Use the [tutorial](https://cloud.google.com/sdk/docs/downloads-versioned-archives) to install the SDK
+```
+wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-285.0.1-darwin-x86_64.tar.gz
+tar -xzvf google-cloud-sdk-285.0.1-darwin-x86_64.tar.gz
+./install.sh
+```
 Or brew
 ```
 brew install google-cloud-sdk
