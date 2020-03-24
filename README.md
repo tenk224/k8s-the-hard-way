@@ -20,7 +20,7 @@ Or brew
 ```
 brew install google-cloud-sdk
 ```
-Check installtion
+Check installation
 ```
 gcloud version
 ```
