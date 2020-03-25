@@ -52,5 +52,5 @@ Verify
 ```
 kubectl version --client
 ```
-### Kubernetes concept
+### Kubernetes concepts
 Read the [Concepts](https://kubernetes.io/docs/concepts)
